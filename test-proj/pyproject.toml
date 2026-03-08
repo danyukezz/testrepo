@@ -1,0 +1,22 @@
+[project]
+name = "test-proj"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "django>=6.0.3",
+    "django-allauth>=65.14.3",
+    "django-bolt>=0.6.7",
+    "djangorestframework>=3.16.1",
+    "drf-auth-kit>=1.1.4",
+    "environs[django]>=14.6.0",
+    "drf-spectacular>=0.28.2",
+    "requests>=2.32.5",
+    "cryptography>=46.0.5",
+]
+
+[dependency-groups]
+dev = [
+    "django-extensions>=4.1",
+]
